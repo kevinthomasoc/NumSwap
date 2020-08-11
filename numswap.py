@@ -1,6 +1,7 @@
-x = input("What is the first number before swapping?")
-y = input("What is the second number before swapping?")
-print("The first number before swapping is: " + str(x))
-print("The second number before swapping is: " + str(y))
-print("The first number after swapping is: " + str(y))
-print("The second number after swapping is: " + str(x))
+var_one = 21
+var_two = 39
+temp_var = var_one
+var_one = var_two
+var_two = var_one
+print('Variable one after swapping: {}'.format(var_one))
+print('Variable two after swapping: {}'.format(var_two))
